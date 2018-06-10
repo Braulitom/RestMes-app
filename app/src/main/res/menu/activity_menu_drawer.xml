@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_entradas"
+            android:icon="@drawable/ic_entradas"
+            android:title="Entradas" />
+        <item
+            android:id="@+id/nav_sopas"
+            android:icon="@drawable/ic_sopas"
+            android:title="Sopas" />
+        <item
+            android:id="@+id/nav_platosf"
+            android:icon="@drawable/ic_platosfuertes"
+            android:title="Platos Fuertes" />
+        <item
+            android:id="@+id/nav_bebidas"
+            android:icon="@drawable/ic_bebidas"
+            android:title="Bebidas" />
+        <item
+            android:id="@+id/nav_postres"
+            android:icon="@drawable/ic_postres"
+            android:title="Postres" />
+        <item
+            android:id="@+id/nav_bar"
+            android:icon="@drawable/ic_bar"
+            android:title="Bar" />
+
+
+    </group>
+
+
+</menu>
